@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1250px) {
+    .updates {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo_icon p,
+    .second_section .icons .icon_box h2,
+    .second_section .icons .icon_box p,
+    .updates .notify h1,
+    .updates .notify p,
+    .fourth_section .contacts h3,
+    .fourth_section .contacts p,
+    .fourth_section .contacts .icons_box h2,
+    .fourth_section .contacts .icons_box p,
+    .footer .support a {
+        max-width: 1000px;
+        font-size: 28px;
+    }  
+}
+
+@media only screen and (max-width: 1050px) {
+    .updates {
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+    }    
+    .updates .notify .email_box{
+        justify-content: center;
+    }
+    .fourth_section .contacts .images{
+        text-align: center;
+    }
+
+    .second_section .icons{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo_icon_div{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px){
+    .logo_icon_div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo_icon .icons{
+        justify-content: center;
+    }
+    .first_section{
+        padding-top: 30px;
+    }
+    .footer .support {
+        text-align: center;
+        line-height: 50px;
+    }
+}
